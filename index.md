@@ -14,7 +14,7 @@ title: Home
 
 <main id="home">
   <div class="header">
-    <img src="/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+    <img src="./assets/profile.jpg" alt="Profile Picture" class="profile-pic">
     <div>
       <h1>Brian Zhang [this website is still a wip]</h1>
       <p>Hey there! I'm a Software Engineering student at the University of Waterloo. My research interests lie broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I'm also trying to explore and branch out into other areas. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
@@ -25,7 +25,7 @@ title: Home
   <div class="timeline">
     <div class="row">
       <div class="column">
-        <img src="/assets/tesla.png" alt="Company 1 Logo" class="company-logo">
+        <img src="./assets/tesla.png" alt="Company 1 Logo" class="company-logo">
         <p>May 2025 - Aug 2025</p>
       </div>
       <div class="column">
@@ -34,7 +34,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/waabi.jpeg" alt="Company 2 Logo" class="company-logo">
+        <img src="./assets/waabi.jpeg" alt="Company 2 Logo" class="company-logo">
         <p>Jan 2025 - Apr 2025</p>
       </div>
       <div class="column">
@@ -43,7 +43,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/ubc.jpg" alt="Company 2 Logo" class="company-logo">
+        <img src="./assets/ubc.jpg" alt="Company 2 Logo" class="company-logo">
         <p>May 2024 - Present</p>
       </div>
       <div class="column">
@@ -54,7 +54,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/kolena.jpg" alt="Company 2 Logo" class="company-logo">
+        <img src="./assets/kolena.jpg" alt="Company 2 Logo" class="company-logo">
         <p>May 2024 - Aug 2024</p>
       </div>
       <div class="column">
@@ -63,7 +63,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/waabi.jpeg" alt="Company 3 Logo" class="company-logo">
+        <img src="./assets/waabi.jpeg" alt="Company 3 Logo" class="company-logo">
         <p>Sept 2023 - Dec 2023</p>
       </div>
       <div class="column">
@@ -72,7 +72,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/careguide.jpg" alt="Company 3 Logo" class="company-logo">
+        <img src="./assets/careguide.jpg" alt="Company 3 Logo" class="company-logo">
         <p>Jan 2023 - Apr 2023</p>
       </div>
       <div class="column">
@@ -81,7 +81,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="/assets/oanda.jpg" alt="Company 3 Logo" class="company-logo">
+        <img src="./assets/oanda.jpg" alt="Company 3 Logo" class="company-logo">
         <p>May 2022 - Aug 2022</p>
       </div>
       <div class="column">
@@ -95,15 +95,15 @@ title: Home
     <div class="publication">
       <div class="publication-row">
         <div class="publication-column">
-          <img src="/assets/trajflow2.jpg" alt="Publication Image" class="publication-image">
+          <img src="./assets/trajflow2.jpg" alt="Publication Image" class="publication-image">
         </div>
         <div class="publication-column">
           <h3><a href="https://www.arxiv.org/abs/2506.08541">TrajFlow: Multi-modal Motion Prediction via Flow Matching </a></h3>
           <!-- <a href="https://example.com/website" target="_blank">
-            <img src="/assets/link.jpg" class="icon">
+            <img src="./assets/link.jpg" class="icon">
           </a>
           <a href="https://example.com/paper" target="_blank">
-            <img src="/assets/paper.jpg" class="icon">
+            <img src="./assets/paper.jpg" class="icon">
           </a> -->
           <p>Under review at IROS</p>
           <p>Qi Yan, <b>Brian Zhang</b>, Yutong Zhang, Daniel Yang, Joshua White, Di Chen, Jiachao Liu, Langechuan Liu, Binnan Zhuang, Shaoshuai Shi, Renjie Liao</p>
@@ -125,26 +125,6 @@ title: Home
   </p>
   <ul>
   <li>I performed at <a href="https://www.carnegiehall.org">Carnegie Hall</a> in New York as a winner of an international <a href="https://americanprotege.com/music-talent-competition-fall-2015/">competition</a> (2015). </li>
-  <li>I was fortunate enough to meet and have a masterclass with one of my biggest inspirations, <a href="https://www.jamesmorrison.com">James Morrison</a>, along with many other musical legends
-  through the <a href="https://concerts.theurbanmusicscene.com/2016/01/the-3rd-annual-miami-beach-jazz-festival-international-sound-of-jazz/">Miami Beach Jazz Festival</a>. In that festival,
-  I also had the chance to perform at the <a href="https://www.olympiaarts.miami/olympia-theater.html">Olympia Theater</a> in Miami. (2016)</li>
-  <li>I joined a fine arts a <a href="https://byng2.vsb.bc.ca/byngarts/description.html">fine-arts focused</a> high school program, where I played piano, percussion, and trumpet in various ensembles.
-  A special thanks to <a href="https://music.ubc.ca/profile/scott-maclennan/">Dr. MacLennan</a> for making my journey here dear to my heart.</li>
-  <li>I earned my <a href="https://www.rcmusic.com/learning/examinations/recognizing-achievement/arct-lrcm">ARCT</a> in piano performance and my <a href="https://lcme.uwl.ac.uk/our-exams/jazz/jazz-piano/">ALCM</a> in jazz piano performance in 2018-19</li>
-  </ul>
-
-  <p>Here's a fun video of me playing for one of my heros James Morrison</p>
-  <div class="video-container">
-    <iframe 
-      width="560" 
-      height="315" 
-      src="https://www.youtube.com/embed/a3ICNMQW7Ok?si=hmbZJOHbu-6SVPTA" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  </div>
-</main>
+  <li>I was fortunate enough
 
 
