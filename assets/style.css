@@ -77,7 +77,7 @@ ul {
 
 .timeline .row {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch; /* Ensure columns are the same height */
   margin-bottom: 0; /* Remove gap between rows */
   position: relative;
 }
@@ -93,6 +93,9 @@ ul {
   text-align: right;
   border-right: 2px solid #ccc;
   position: relative;
+  display: flex; /* Add flex to align content */
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
 }
 
 .timeline .column:first-child::after {
@@ -110,6 +113,9 @@ ul {
 .timeline .column:last-child {
   flex: 1 1 75%;
   padding-left: 1rem;
+  display: flex; /* Add flex to align content */
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
 }
 
 .timeline .company-logo {
