@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Brian Zhang
 ---
 
 <nav class="navbar">
@@ -14,7 +14,7 @@ title: Home
 
 <main id="home">
   <div class="header">
-    <img src="./assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+    <img src="{{ site.baseurl }}/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
     <div class="social-links">
       <a href="https://www.linkedin.com/in/brianzhg" target="_blank">LinkedIn</a> |
       <a href="mailto:b434zhan@uwaterloo.ca">Email</a> |
@@ -30,7 +30,7 @@ title: Home
   <div class="timeline">
     <div class="row">
       <div class="column">
-        <img src="./assets/tesla.png" alt="Company 1 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/tesla.png" alt="Company 1 Logo" class="company-logo">
         <p>May 2025 - Aug 2025</p>
       </div>
       <div class="column">
@@ -39,7 +39,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/waabi.jpeg" alt="Company 2 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/waabi.jpeg" alt="Company 2 Logo" class="company-logo">
         <p>Jan 2025 - Apr 2025</p>
       </div>
       <div class="column">
@@ -48,7 +48,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/ubc.jpg" alt="Company 2 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/ubc.jpg" alt="Company 2 Logo" class="company-logo">
         <p>May 2024 - Present</p>
       </div>
       <div class="column">
@@ -59,7 +59,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/kolena.jpg" alt="Company 2 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/kolena.jpg" alt="Company 2 Logo" class="company-logo">
         <p>May 2024 - Aug 2024</p>
       </div>
       <div class="column">
@@ -68,7 +68,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/waabi.jpeg" alt="Company 3 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/waabi.jpeg" alt="Company 3 Logo" class="company-logo">
         <p>Sept 2023 - Dec 2023</p>
       </div>
       <div class="column">
@@ -77,7 +77,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/careguide.jpg" alt="Company 3 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/careguide.jpg" alt="Company 3 Logo" class="company-logo">
         <p>Jan 2023 - Apr 2023</p>
       </div>
       <div class="column">
@@ -86,7 +86,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-        <img src="./assets/oanda.jpg" alt="Company 3 Logo" class="company-logo">
+        <img src="{{ site.baseurl }}/assets/oanda.jpg" alt="Company 3 Logo" class="company-logo">
         <p>May 2022 - Aug 2022</p>
       </div>
       <div class="column">
@@ -100,7 +100,7 @@ title: Home
     <div class="publication">
       <div class="publication-row">
         <div class="publication-column">
-          <img src="./assets/trajflow2.jpg" alt="Publication Image" class="publication-image">
+          <img src="{{ site.baseurl }}/assets/trajflow2.jpg" alt="Publication Image" class="publication-image">
         </div>
         <div class="publication-column">
           <h3><a href="https://www.arxiv.org/abs/2506.08541">TrajFlow: Multi-modal Motion Prediction via Flow Matching </a></h3>
