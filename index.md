@@ -15,10 +15,15 @@ title: Home
 <main id="home">
   <div class="header">
     <img src="./assets/profile.jpg" alt="Profile Picture" class="profile-pic">
-    <div>
-      <h1>Brian Zhang [this website is still a WIP]</h1>
-      <p>Hey there! I'm a Software Engineering student at the University of Waterloo. My research interests lie broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I'm also trying to explore and branch out into other areas. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/brianzhg" target="_blank">LinkedIn</a> |
+      <a href="mailto:b434zhan@uwaterloo.ca">Email</a> |
+      <a href="https://github.com/brian386" target="_blank">GitHub</a>
     </div>
+    <div class="name">
+      <h1>Brian Zhang [website is WIP]</h1>
+    </div>
+    <p>Hey there! I'm a Software Engineering student at the University of Waterloo. My research interests lie broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I'm also trying to explore and branch out into other areas. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
   </div>
 
   <h2 id="experience">Experience</h2>
@@ -29,7 +34,7 @@ title: Home
         <p>May 2025 - Aug 2025</p>
       </div>
       <div class="column">
-        <p>I am an Autopilot Machine Learning Intern on the Fleet Learning team at <a href="https://www.tesla.com">Tesla</a>, working on end-to-end vision foundation models for Full Self-Driving, under <a href="https://charlesrqi.com">Charles Qi</a>.</p>
+        <p>I am an Autopilot Machine Learning Intern on the Fleet Learning team at <a href="https://www.tesla.com">Tesla</a>, working on end-to-end vision foundation models for Full Self-Driving, under <a href="https://charlesrqi.com">Charles Qi</a> and <a href="https://www.philduan.com">Phil Duan</a>.</p>
       </div>
     </div>
     <div class="row">
@@ -103,11 +108,7 @@ title: Home
           <p>Qi Yan, <b>Brian Zhang</b>, Yutong Zhang, Daniel Yang, Joshua White, Di Chen, Jiachao Liu, Langechuan Liu, Binnan Zhuang, Shaoshuai Shi, Renjie Liao</p>
         </div>
       </div>
-      <div class="publication-row">
-        <div class="publication-column" style="flex: 1 1 100%;">
-          <p>We introduce TrajFlow, a novel flow matching-based motion prediction framework that addresses the scalability and efficiency challenges of existing generative trajectory prediction methods. Experiments on the large-scale <a href="https://waymo.com/open/">Waymo Open Motion Dataset</a> demonstrate that TrajFlow achieves state-of-the-art performance across various key metrics.</p>
-        </div>
-      </div>
+        <p>We introduce TrajFlow, a novel flow matching-based motion prediction framework that addresses the scalability and efficiency challenges of existing generative trajectory prediction methods. Experiments on the large-scale <a href="https://waymo.com/open/">Waymo Open Motion Dataset</a> demonstrate that TrajFlow achieves state-of-the-art performance across various key metrics.</p>
     </div>
   </div>
 
@@ -118,7 +119,7 @@ title: Home
   In a past life... 
   </p>
   <ul>
-  <li>I performed at <a href="https://www.carnegiehall.org">Carnegie Hall</a> in New York as a winner of an international <a href="https://americanprotege.com/music-talent-competition-fall-2015/">competition</a> (2015).</li>
+  <li>I performed at <a href="https://www.carnegiehall.org/About/History/Performance-History-Search?q=American%20Protege%20Winners%20Recital&dex=prod_PHS&event=56529&start=1451030400">Carnegie Hall</a> in New York as a winner of an international <a href="https://americanprotege.com/music-talent-competition-fall-2015/">competition</a> (2015).</li>
   <li>I was fortunate enough to meet and have a masterclass with one of my biggest inspirations, <a href="https://www.jamesmorrison.com">James Morrison</a>, along with many other musical legends
   through the <a href="https://concerts.theurbanmusicscene.com/2016/01/the-3rd-annual-miami-beach-jazz-festival-international-sound-of-jazz/">Miami Beach Jazz Festival</a>. In that festival,
   I also had the chance to perform at the <a href="https://www.olympiaarts.miami/olympia-theater.html">Olympia Theater</a> in Miami. (2016)</li>
