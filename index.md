@@ -17,7 +17,7 @@ title: Home
     <img src="/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
     <div>
       <h1>Brian Zhang [this website is still a wip]</h1>
-      <p>Hey there! I'm a Software Engineering student at the University of Waterloo. My research interests lie broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I also strive to branch out into other domains and areas of research. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
+      <p>Hey there! I'm a Software Engineering student at the University of Waterloo. My research interests lie broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I'm also trying to explore and branch out into other areas. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
     </div>
   </div>
 
