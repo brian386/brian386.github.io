@@ -69,7 +69,7 @@ title: Brian Zhang
     <div class="row">
       <div class="column">
         <img src="{{ site.baseurl }}/assets/waabi.jpeg" alt="Company 3 Logo" class="company-logo">
-        <p>Sept 2023 - Dec 2023</p>
+        <p>Sep 2023 - Dec 2023</p>
       </div>
       <div class="column">
         <p>I was an ML Research Intern at <a href="https://waabi.ai">Waabi</a>, where I worked on modeling realistic traffic agents for closed-loop simulation under <a href="https://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>.</p>
@@ -104,8 +104,8 @@ title: Brian Zhang
         </div>
         <div class="publication-column">
           <h3><a href="https://www.arxiv.org/abs/2506.08541">TrajFlow: Multi-modal Motion Prediction via Flow Matching </a></h3>
-          <p>Under review at IROS</p>
           <p>Qi Yan, <b>Brian Zhang</b>, Yutong Zhang, Daniel Yang, Joshua White, Di Chen, Jiachao Liu, Langechuan Liu, Binnan Zhuang, Shaoshuai Shi, Renjie Liao</p>
+          <p>IROS 2025</p>
         </div>
       </div>
         <p>We introduce TrajFlow, a novel flow matching-based motion prediction framework that addresses the scalability and efficiency challenges of existing generative trajectory prediction methods. Experiments on the large-scale <a href="https://waymo.com/open/">Waymo Open Motion Dataset</a> demonstrate that TrajFlow achieves state-of-the-art performance across various key metrics.</p>

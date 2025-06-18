@@ -88,7 +88,7 @@ ul {
 }
 
 .timeline .column:first-child {
-  flex: 1 1 25%;
+  flex: 1 1 20%; /* Set the first column to 1/5 (1:4 ratio) */
   padding-right: 1rem;
   text-align: right;
   border-right: 2px solid #ccc;
@@ -110,8 +110,14 @@ ul {
   border: 2px solid #fff;
 }
 
+.timeline .column:first-child p {
+  font-size: 0.85rem; /* Make date text smaller */
+  margin-top: 0.5rem; /* Add some spacing above the date */
+  color: #555; /* Slightly muted color */
+}
+
 .timeline .column:last-child {
-  flex: 1 1 75%;
+  flex: 1 1 80%; /* Set the last column to 4/5 (1:4 ratio) */
   padding-left: 1rem;
   display: flex; /* Add flex to align content */
   flex-direction: column;
@@ -216,6 +222,11 @@ ul {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%; /* Ensure images do not exceed the width of their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .video-container {
   margin-top: 2rem;
   position: relative;
@@ -239,7 +250,7 @@ ul {
   font-size: 1rem;
 }
 
-.social-links a {
+social-links a {
   color: #0000ee;
   text-decoration: none;
   margin: 0 0.5rem;
@@ -247,4 +258,49 @@ ul {
 
 social-links a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .publication-row {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center items */
+  }
+  
+  .publication-column:first-child {
+    flex: 1 1 100%; /* Make the image column take full width */
+    padding-right: 0; /* Remove padding */
+    margin-bottom: 1rem; /* Add spacing below the image */
+    text-align: center; /* Center the image */
+  }
+  
+  .publication-column:last-child {
+    flex: 1 1 100%; /* Make the content column take full width */
+    padding-left: 0; /* Remove padding */
+  }
+  
+  .publication-image {
+    max-width: 80%; /* Slightly smaller image on mobile */
+  }
+
+  .navbar {
+    padding: 0.5rem 0; /* Reduce horizontal padding */
+  }
+  
+  .navbar ul {
+    flex-wrap: wrap; /* Allow items to wrap on small screens */
+    justify-content: center; /* Ensure items are centered */
+    padding: 0; /* Remove default padding */
+    gap: 0.8rem; /* Slightly reduce gap on mobile */
+  }
+  
+  .navbar li {
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margins */
+  }
+  
+  .navbar a {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    display: block; /* Block display ensures consistent spacing */
+    padding: 0.3rem 0.5rem; /* Add some padding around links */
+  }
 }
