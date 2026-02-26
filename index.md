@@ -27,7 +27,7 @@ title: Brian Zhang
         </div>
       </div>
     </div>
-    <p class="profile-bio">Hey there! I'm a Software Engineering student at the University of Waterloo. My work lies broadly in the intersection of self-driving, generative models, and computer vision. At this stage of my career, I'm also trying to explore and branch out into other areas. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
+    <p class="profile-bio">Hey there! My work lies broadly in the intersection of self-driving, generative models, and computer vision. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
   </div>
 
   <h2 id="experience">Experience</h2>
