@@ -329,12 +329,13 @@ img {
   }
 
   .timeline .row {
-    align-items: flex-start;
+    align-items: stretch;
   }
 
   .timeline .column:first-child {
     flex: 0 0 110px;
     padding-right: 0.75rem;
+    justify-content: flex-start;
   }
 
   .timeline .column:last-child {
