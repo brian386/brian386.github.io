@@ -1,11 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   margin: 0;
   padding: 2rem;
   background: #fff;
-  color: #000;
+  color: #222;
   line-height: 1.6;
-  padding-top: 3rem; /* Add padding to avoid content being hidden under the navbar */
+  padding-top: 3.5rem;
 }
 
 main {
@@ -24,7 +28,7 @@ h2 {
 }
 
 a {
-  color: #0000ee;
+  color: #2563eb;
   text-decoration: none;
 }
 
@@ -41,9 +45,11 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 0.75rem 1rem;
   z-index: 1000;
 }
 
@@ -53,7 +59,7 @@ ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .navbar li {
@@ -62,12 +68,31 @@ ul {
 
 .navbar a {
   text-decoration: none;
-  color: #000;
-  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: #333;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover::after {
+  width: 100%;
 }
 
 .timeline {
@@ -131,17 +156,40 @@ ul {
   margin: 0 auto;
 }
 
-.profile-pic {
-  max-width: 200px;
-  height: auto;
-  border-radius: 50%;
-  margin: 0 auto 1rem; /* Center the image and add bottom margin */
-  display: block;
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.name {
-  text-align: center;
-  margin-top: 1rem;
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2.2rem;
+}
+
+.profile-tagline {
+  margin: 0 0 0.75rem;
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.profile-bio {
+  margin-top: 0;
+  color: #333;
+  line-height: 1.7;
 }
 
 .publications {
@@ -149,77 +197,49 @@ ul {
 }
 
 .publication {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #eaeaea;
 }
-
-.publication .row {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 0.5rem;
-}
-
-.publication .column:first-child {
-  flex: 1 1 25%;
-  padding-right: 1rem;
-}
-
-.publication .column:last-child {
-  flex: 1 1 75%;
-  padding-left: 1rem;
-}
-
-.publication-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.publication .icon {
-  width: 40px;
-  height: 40px;
-  text-decoration: none
-  /* vertical-align: middle; */
-}
-
-.publication .row:last-child .column {
-  flex: 1 1 100%;
-  padding: 0.5rem 0;
-}
-
-.publication .venue {
-  font-style: italic;
-  color: #555;
-  margin-top: 0.5rem;
-}
-
-/* .publication .description {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #555;
-} */
 
 .publication-row {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 1rem;
+  gap: 1.25rem;
 }
 
 .publication-column:first-child {
   flex: 1 1 33%;
-  padding-right: 1rem;
 }
 
 .publication-column:last-child {
   flex: 1 1 67%;
-  padding-left: 1rem;
+}
+
+.publication h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.publication p {
+  margin: 0.2rem 0;
+}
+
+.publication p:first-of-type {
+  color: #666;
+}
+
+.publication p:last-child {
+  color: #222;
+  font-size: 0.95rem;
 }
 
 .publication-image {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  border-radius: 6px;
 }
 
 img {
@@ -245,22 +265,49 @@ img {
 }
 
 .social-links {
-  text-align: center;
-  margin-bottom: 1.5rem; /* Add spacing below the links */
-  font-size: 1rem;
+  display: flex;
+  gap: 0.75rem;
 }
 
-social-links a {
-  color: #0000ee;
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 1.1rem;
   text-decoration: none;
-  margin: 0 0.5rem;
+  transition: background 0.2s, color 0.2s;
 }
 
-social-links a:hover {
-  text-decoration: underline;
+.social-links a:hover {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .profile-info h1 {
+    font-size: 1.8rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
   .publication-row {
     flex-direction: column; /* Stack columns vertically */
     align-items: center; /* Center items */
@@ -283,24 +330,17 @@ social-links a:hover {
   }
 
   .navbar {
-    padding: 0.5rem 0; /* Reduce horizontal padding */
+    padding: 0.6rem 0;
   }
   
   .navbar ul {
-    flex-wrap: wrap; /* Allow items to wrap on small screens */
-    justify-content: center; /* Ensure items are centered */
-    padding: 0; /* Remove default padding */
-    gap: 0.8rem; /* Slightly reduce gap on mobile */
-  }
-  
-  .navbar li {
-    padding: 0; /* Reset padding */
-    margin: 0; /* Reset margins */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 1.25rem;
   }
   
   .navbar a {
-    font-size: 0.9rem; /* Slightly smaller font size */
-    display: block; /* Block display ensures consistent spacing */
-    padding: 0.3rem 0.5rem; /* Add some padding around links */
+    font-size: 0.85rem;
   }
 }
