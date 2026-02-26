@@ -323,6 +323,33 @@ img {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    padding-top: 3.5rem;
+  }
+
+  .timeline .row {
+    align-items: flex-start;
+  }
+
+  .timeline .column:first-child {
+    flex: 0 0 110px;
+    padding-right: 0.75rem;
+  }
+
+  .timeline .column:last-child {
+    min-width: 0;
+  }
+
+  .timeline .company-logo {
+    width: min(100%, 96px);
+    max-width: none;
+    height: auto;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
   .profile-card {
     flex-direction: column;
     text-align: center;
