@@ -38,7 +38,7 @@ title: Brian Zhang
         <p>May 2025 - Aug 2025</p>
       </div>
       <div class="column">
-        <p>I am an Autopilot Machine Learning Intern on the Fleet Learning team at <a href="https://www.tesla.com">Tesla</a>, working on end-to-end vision foundation models for Full Self-Driving, under <a href="https://charlesrqi.com">Charles Qi</a> and <a href="https://www.philduan.com">Phil Duan</a>.</p>
+        <p>I was an Autopilot Machine Learning Intern on the Fleet Learning team at <a href="https://www.tesla.com">Tesla</a>, working on end-to-end vision foundation models for Full Self-Driving, under <a href="https://charlesrqi.com">Charles Qi</a> and <a href="https://www.philduan.com">Phil Duan</a>.</p>
       </div>
     </div>
     <div class="row">
