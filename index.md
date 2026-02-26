@@ -122,7 +122,7 @@ title: Brian Zhang
   </p>
   <ul>
   <li>I performed at <a href="https://www.carnegiehall.org/About/History/Performance-History-Search?q=American%20Protege%20Winners%20Recital&dex=prod_PHS&event=56529&start=1451030400">Carnegie Hall</a> in New York as a winner of an international <a href="https://americanprotege.com/music-talent-competition-fall-2015/">competition</a> (2015).</li>
-  <li>I was fortunate enough to meet and have a masterclass with one of my biggest inspirations, <a href="https://www.jamesmorrison.com">James Morrison</a>, along with many other musical legends
+  <li>I participated in a masterclass with one of my biggest inspirations, <a href="https://www.jamesmorrison.com">James Morrison</a>, along with many other musical legends
   through the <a href="https://concerts.theurbanmusicscene.com/2016/01/the-3rd-annual-miami-beach-jazz-festival-international-sound-of-jazz/">Miami Beach Jazz Festival</a>. In that festival,
   I also had the chance to perform at the <a href="https://www.olympiaarts.miami/olympia-theater.html">Olympia Theater</a> in Miami. (2016)</li>
   <li>I joined a <a href="https://byng2.vsb.bc.ca/byngarts/description.html">fine-arts focused</a> high school program, where I played piano, percussion, and trumpet in various ensembles. </li>
