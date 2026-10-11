@@ -18,7 +18,7 @@ title: Brian Zhang
       <img src="{{ site.baseurl }}/assets/self_picture.jpg" alt="Brian Zhang" class="profile-pic">
       <div class="profile-info">
         <h1>Brian Zhang</h1>
-        <p class="profile-tagline">Software Engineering @ University of Waterloo</p>
+        <p class="profile-tagline">ML @ TeslaAI</p>
         <div class="social-links">
           <a href="mailto:b434zhan@uwaterloo.ca" title="Email"><i class="fas fa-envelope"></i></a>
           <a href="https://github.com/brian386" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
@@ -27,7 +27,7 @@ title: Brian Zhang
         </div>
       </div>
     </div>
-    <p class="profile-bio">Hey there! My work lies broadly in the intersection of self-driving, generative models, and computer vision. Outside of school and work, I like to play piano, play chess, and explore new places.</p>
+        <p class="profile-bio">Hey there! I'm currently an ML Engineer at Tesla. I previously studied Software Engineering at the University of Waterloo. My work sits at the intersection of self-driving, generative models, and computer vision. Outside of work, I play piano, play chess, and explore new places.</p>
   </div>
 
   <h2 id="experience">Experience</h2>
