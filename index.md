@@ -27,7 +27,7 @@ title: Brian Zhang
         </div>
       </div>
     </div>
-        <p class="profile-bio">Hey there! I'm currently an ML Engineer at Tesla. I previously studied Software Engineering at the University of Waterloo. My work sits at the intersection of self-driving, generative models, and computer vision. Outside of work, I play piano, play chess, and explore new places.</p>
+        <p class="profile-bio">Hey there! I'm currently an ML Engineer at Tesla. I previously studied Software Engineering at the University of Waterloo. During my undergrad, I was fortunate to be advised by <a href="https://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a> and <a href="https://lrjconan.github.io">Renjie Liao</a>. My work sits at the intersection of self-driving, generative models, and computer vision. Outside of work, I play piano, play chess, and explore new places.</p>
   </div>
 
   <h2 id="experience">Experience</h2>
